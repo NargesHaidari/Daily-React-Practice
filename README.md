@@ -6,6 +6,7 @@ This repository is dedicated to tracking my daily React.js coding practice. The 
 
 | Date      | Topic                                                       |
 | :-------- | :---------------------------------------------------------- |
+| 2026-5-29 | Learned JSX rules and syntax                                |
 | 2026-5-28 | Practice React components by creating a profile card UI     |
 | 2026-5-27 | SPA & Next.js basics / Vite React setup / Project structure |
 | 2026-5-26 | React basics and comparison with Angular/Vue                |
