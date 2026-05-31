@@ -1,6 +1,6 @@
 # 📝 Daily React Practice Log
 
-This repository is dedicated to tracking my daily React.js coding practice. The goal is to maintain consistency, build a solid foundation, and track my progress from scratch to professional mastery.
+This repository documents my daily React.js learning journey, including practice exercises, notes, and projects as I build my skills in modern web development.
 
 ## 📅 Practice Tracker
 
@@ -21,6 +21,6 @@ This repository is dedicated to tracking my daily React.js coding practice. The 
 
 ## 🚀 Goals
 
-- [ ] Maintain daily coding consistency (at least 30 minutes daily)
-- [ ] Master one new React concept every week
-- [ ] Improve code quality and follow best practices
+- [ ] Build real-world web applications using HTML, CSS, JavaScript, and React
+- [ ] Learn backend development and grow into a full-stack developer
+- [ ] Expand into cross-platform mobile application development
