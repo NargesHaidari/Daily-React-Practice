@@ -1,5 +1,13 @@
-.student-card{
-    background-color: #dedede;
-    padding: 15px 0;
-    margin-bottom: 10px;
+.card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-image{
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
