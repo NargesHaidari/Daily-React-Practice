@@ -1,23 +1,23 @@
 import './App.css'
-import Card from "./components/Card";
-import ReactDeveloper from './assets/React-developer.jpg'
+import ColorBox from './components/ColorBox';
+import UserForm from './components/UserForm';
+
+function handleClick(){
+    const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+    document.querySelector('.color-box').style.backgroundColor = randomColor;
+}
+
+function handleSubmit(event){
+    event.preventDefault();
+    alert("Form submitted successfully!");
+    event.target.reset();
+}
 
 function App() {
   return (
     <>
-      <Card>
-        <h2>درباره من</h2>
-        <p>Frontend Developer</p>
-      </Card>
-
-      <Card>
-        <img className="card-image" src={ReactDeveloper} alt="profile"/>
-        <p>React Developer</p>
-      </Card>
-
-      <Card>
-        <button>Click Me</button>
-      </Card>
+        <ColorBox onClick={handleClick}/>
+        <UserForm onSubmit={handleSubmit}/>
     </>
   );
 }
