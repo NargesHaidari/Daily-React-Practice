@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-02 | React useState Practice                                     |
 | 2026-06-01 | Learn and Practice React Events                             |
 | 2026-05-31 | Learn React children props                                  |
 | 2026-05-30 | Learn and implement React props                             |
