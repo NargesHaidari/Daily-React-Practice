@@ -1,11 +1,13 @@
 import './App.css'
-import Example from './components/Example';
+import DetailsToggle from './components/DetailsToggle';
+import StatusToggle from './components/StatusToggle';
 
 
 function App() {
   return (
     <>
-        <Example/>
+        <DetailsToggle/>
+        <StatusToggle/>
     </>
   );
 }
