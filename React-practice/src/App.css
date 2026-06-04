@@ -1,64 +1,44 @@
 
-
-body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: tahoma;
 }
 
-.container{
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.content-container{
+    width: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
     justify-content: center;
-    gap: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 500px;
-    height: 200px;
+    align-items: center;
+    gap: 5px;
     border-radius: 5px;
-    margin-bottom: 20px;
 }
 
-.toggle-btn , .change-status{
-    font-size: 30px;
-    background-color: #BDE0FE;
-    padding: 10px 0px;
-    border-radius: 10px;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: all 0.3s;
+.img-container{
+    width: 100%;
 }
 
-.toggle-btn:hover, .change-status:hover{
-    scale: 1.05;
-}
-
-.toggle-btn:active, .change-status:active{
-    scale: 0.95;
-}
-
-.details{
-    font-size: 20px;
-    background-color: #BDE0FE;
-    padding: 10px;
-    border-radius: 10px;
-    width: 400px;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.change-status{
-    width: 250px;
-    border: none;
-}
-
-.status{
-    padding: 5px 10px;
-    border-radius: 10px;
-    cursor: pointer;
+.img-container img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }

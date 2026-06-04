@@ -1,13 +1,11 @@
 import './App.css'
-import DetailsToggle from './components/DetailsToggle';
-import StatusToggle from './components/StatusToggle';
+import ProductList from './components/ProductList';
 
 
 function App() {
   return (
     <>
-        <DetailsToggle/>
-        <StatusToggle/>
+      <ProductList/>
     </>
   );
 }
