@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-05 | Build the First Version of a React Todo List                |
 | 2026-06-04 | Learn React List Rendering                                  |
 | 2026-06-03 | Learn conditional rendering                                 |
 | 2026-06-02 | React useState Practice                                     |
