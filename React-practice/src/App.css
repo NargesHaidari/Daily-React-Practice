@@ -12,35 +12,60 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 2rem 0;
 }
 
 .toDoList-container{
     background-color: #F8FAFC ;
-    padding: 3rem 2rem;
+    border: 1px solid black;
+    padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+    border-radius: 8px;
+    width: 30rem;
 }
 
+
+
 .heading{
-    font-size: 3rem;
+    font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.inp-btn{
+    display: flex;
 }
 
 .input{
-    width: 22rem;
+    width: min(22rem, 100%);
     padding: 0.3rem 0.8rem;
-    font-size: 1rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
     margin-right: 2rem;
+    border: none;
+    background-color: #e9dafa;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-btn, .clear-completed{
+    width: 4rem;
+    padding: 0.3rem 0.8rem;
+    background-color: #e9dafa;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
 .add-btn{
-    width: 4rem;
-    padding: 0.3rem 0.8rem;
-    font-size: 1rem;
+    box-shadow: none;
 }
 
 .tasks-left{
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 ul{
@@ -49,7 +74,7 @@ ul{
     gap: 1rem;
     list-style-type: none;
     width: 100%;
-    font-size: 1.3rem;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
 }
 
 li{
@@ -74,21 +99,41 @@ li{
     background-color: transparent;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 2vw, 1rem);
     border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-.delete-btn:hover{
+.delete-btn:hover, .add-btn:hover, .clear-completed:hover{
     background-color: #f5ebff;
 }
 
-.delete-btn:active{
+.delete-btn:active, .add-btn:active, .clear-completed:active{
     background-color: #e9dafa;
 }
 
 .clear-completed{
     width: 9rem;
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 2vw, 1rem);
     padding: 0.4rem 0;
+}
+
+@media(max-width:500px){
+    .toDoList-container{
+        width: 20rem;
+    }
+    body{
+        padding: 1rem 0;
+    }
+    .inp-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media(max-width:330px){
+    .toDoList-container{
+        width: 16rem;
+    }
 }
