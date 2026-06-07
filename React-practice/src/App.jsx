@@ -1,11 +1,11 @@
 import './App.css'
-import TodoList from './components/TodoList';
+import LivePageTitle from './components/LivePageTitle';
 
 
 function App() {
   return (
     <>
-      <TodoList/>
+      <LivePageTitle/>
     </>
   );
 }

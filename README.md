@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-07 | Learn the React useEffect Hook                              |
 | 2026-06-06 | Complete React Todo List Project                            |
 | 2026-06-05 | Build the First Version of a React Todo List                |
 | 2026-06-04 | Learn React List Rendering                                  |
