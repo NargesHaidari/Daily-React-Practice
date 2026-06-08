@@ -1,11 +1,11 @@
 import './App.css'
-import LivePageTitle from './components/LivePageTitle';
+import Example from './components/Example';
 
 
 function App() {
   return (
     <>
-      <LivePageTitle/>
+      <Example/>
     </>
   );
 }
