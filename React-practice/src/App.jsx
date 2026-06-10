@@ -1,11 +1,19 @@
+import { useState } from 'react';
 import './App.css'
 import Users from './components/Users';
 
 
 function App() {
+
+  function handleState(){
+    setState(false)
+  }
+
+  const [state , setState] = useState(true)
+
   return (
     <>
-      <Users/>
+      {state ? <Users onClick={handleState}/> : <h1>Component unmounted</h1>}
     </>
   );
 }

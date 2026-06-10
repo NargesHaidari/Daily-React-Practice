@@ -1,14 +1,10 @@
 
-export default function UserCard({name , id}){
-
-    let handleDelete = ()=>{
-        
-    }
+export default function UserCard({name , onClick}){
 
     return(
-        <div>
+        <div className="user-card">
             <p>name : {name}</p>
-            <button onClick={()=> handleDelete(id)}>Remove</button>
+            <button onClick={onClick} className="remove-btn" >Remove</button>
         </div>
     )
 }

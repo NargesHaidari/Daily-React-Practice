@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-10 | Complete React Lifecycle Methods Practice                   |
 | 2026-06-09 | Learn React Lifecycle Methods (In Progress)                 |
 | 2026-06-08 | Fetch Data from API using useEffect                         |
 | 2026-06-07 | Learn the React useEffect Hook                              |
