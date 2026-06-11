@@ -1,19 +1,12 @@
-import { useState } from 'react';
-import './App.css'
-import Users from './components/Users';
+
+
+import MakeupProducts from './components/MakeupProducts'
 
 
 function App() {
-
-  function handleState(){
-    setState(false)
-  }
-
-  const [state , setState] = useState(true)
-
   return (
     <>
-      {state ? <Users onClick={handleState}/> : <h1>Component unmounted</h1>}
+      <MakeupProducts/>
     </>
   );
 }
