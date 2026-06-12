@@ -1,12 +1,12 @@
 
-
-import MakeupProducts from './components/MakeupProducts'
-
+import ProfileCard from './components/ProfileCard.jsx'
+import GlobalStyle from './styles/GlobalStyle.js'
 
 function App() {
   return (
     <>
-      <MakeupProducts/>
+      <GlobalStyle/>
+      <ProfileCard/>
     </>
   );
 }
