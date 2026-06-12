@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-12 | Learn Tailwind CSS                                          |
 | 2026-06-12 | Learn Styled Components in React                            |
 | 2026-06-11 | Learn React CSS Modules                                     |
 | 2026-06-10 | Complete React Lifecycle Methods Practice                   |

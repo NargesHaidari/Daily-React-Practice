@@ -1,14 +1,10 @@
 
-import ProfileCard from './components/ProfileCard.jsx'
-import GlobalStyle from './styles/GlobalStyle.js'
+import Example from './components/Example.jsx'
 
-function App() {
+export default function App() {
   return (
-    <>
-      <GlobalStyle/>
-      <ProfileCard/>
-    </>
+      <div>
+        <Example />
+      </div>
   );
 }
-
-export default App;
