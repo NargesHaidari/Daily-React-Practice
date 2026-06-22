@@ -1,14 +1,21 @@
 
-import Parent from './components/Parent.jsx';
-import { AppDataProvider } from './NewContext.jsx';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import NavMenu from "./components/NavMenu"
+import HomePage from "./components/HomePage"
+import AboutPage from "./components/AboutPage"
+import ContactPage from "./components/ContactPage"
 
 export default function App() {
   return (
-    <AppDataProvider>
-      <div>
-        <h1>Welcome to our website</h1>
-        <Parent />
-      </div>
-    </AppDataProvider>
-  );
+    <Router>
+      <NavMenu/>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
+      </Routes>
+    </Router>
+  )
 }
+
+

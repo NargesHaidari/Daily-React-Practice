@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-22 | Learn and practice React Router                             |
 | 2026-06-20 | Learn Context API                                           |
 | 2026-06-12 | Learn Tailwind CSS                                          |
 | 2026-06-12 | Learn Styled Components in React                            |
