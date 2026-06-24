@@ -1,19 +1,17 @@
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
-import HomePage from './components/HomePage'
-import ProductDtail from './components/ProductDtail'
+import UseCounter from "./components/UseCounter"
 
 export default function App() {
+  let {count, increase, decrease} = UseCounter();
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/productDtail/:id" element={<ProductDtail/>} />
-        <Route/>
-      </Routes>
-    </Router>
+    <div>
+      <h1 className="text-3xl">Your count is: {count}</h1>
+      <button className="text-2xl m-2 bg-blue-200 p-2" onClick={increase}>Increase</button>
+      <button className="text-2xl m-2 bg-blue-200 p-2" onClick={decrease}>Decrease</button>
+    </div>
   )
 }
+
 
 
