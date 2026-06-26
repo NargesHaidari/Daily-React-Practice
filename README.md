@@ -6,6 +6,7 @@ This repository documents my daily React.js learning journey, including practice
 
 | Date       | Topic                                                       |
 | :--------- | :---------------------------------------------------------- |
+| 2026-06-26 | Practice React Developer Tools                              |
 | 2026-06-25 | practice React Custom Hook                                  |
 | 2026-06-24 | Learn and practice React Custom Hook                        |
 | 2026-06-23 | Learn and practice React useParams                          |
